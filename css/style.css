@@ -5,9 +5,6 @@
 body {
   margin: 0;
   padding: 0;
-  margin: auto;
-  width: 50%;
-
 }
 
 h1, h2 {
@@ -32,7 +29,6 @@ h1, h2 {
 /*------------------- EXERCICE 1 -------------------------*/
 /*--------------------------------------------------------*/
 
-
 .rectangleEx1 {
   margin: auto;
   padding: 40px;
@@ -41,6 +37,35 @@ h1, h2 {
 /*--------------------------------------------------------*/
 /*------------------- EXERCICE 2 -------------------------*/
 /*--------------------------------------------------------*/
+
+.rectangleEx2 {
+  position: relative;
+}
+
+#exercice2 .carreVert {
+  left: 50px;
+  width: 800px;
+  height: 200px;
+}
+
+#exercice2 .carreViolet {
+  width: 500px;
+  height: 120px;
+  top: 40px;
+  left: 350px;
+}
+
+#exercice2 .carreOrange {
+  width: 450px;
+  height: 80px;
+  top: 20px;
+  right: 400px;
+}
+
+
+
+
+
 
 
 
