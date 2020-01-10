@@ -23,6 +23,10 @@ h1, h2 {
   background-color: orange;
 }
 
+.carreBleu {
+  background-color: aqua;
+}
+
 
 
 /*--------------------------------------------------------*/
@@ -65,12 +69,13 @@ h1, h2 {
 /*--------------------------------------------------------*/
 /*------------------- EXERCICE 3 -------------------------*/
 /*--------------------------------------------------------*/
+
 #exercice3 {
-height: 415px;
+height: 500px;
 }
 
 #exercice3 .carreVert {
-  top: 30px;
+  position: relative;
   width: 800px;
   height: 200px;
 }
@@ -80,7 +85,7 @@ height: 415px;
   width: 500px;
   height: 120px;
   left: 150px;
-  bottom: 65px;
+  top: 40px;
 }
 
 #exercice3 .carreOrange {
@@ -88,8 +93,45 @@ height: 415px;
   width: 125px;
   height: 125px;
   top: 200px;
+  left: 150px;
 }
 
+/*--------------------------------------------------------*/
+/*------------------- EXERCICE 4 -------------------------*/
+/*--------------------------------------------------------*/
+#exercice4 {
+  height: 750px;
+}
+
+#exercice4 .carreBleu{
+  height: 150px;
+  width: 900px;
+  position: relative;
+}
+
+#exercice4 .carreVert{
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  left: 200px;
+  top: 250px;
+}
+
+#exercice4 .carreViolet {
+  position: absolute;
+  height: 130px;
+  width: 130px;
+  top: 60px;
+  left: 60px;
+}
+
+#exercice4 .carreOrange {
+  position: absolute;
+  height: 130px;
+  width: 130px;
+  top: 230px;
+  left: 230px;
+}
 
 
 
