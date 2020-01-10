@@ -13,27 +13,33 @@ h1, h2 {
 
 .carreVert {
   background-color: lightgreen;
+  border: solid 2px #000;
 }
 
 .carreViolet {
   background-color: purple;
   opacity: 0.5;
+  border: solid 2px #000;
 }
 
 .carreOrange {
   background-color: orange;
+  border: solid 2px #000;
 }
 
 .carreBleu {
   background-color: aqua;
+  border: solid 2px #000;
 }
 
 .carreJaune {
   background-color: yellow;
+  border: solid 2px #000;
 }
 
 #carreGris {
   background-color: grey;
+  border: solid 2px #000;
 }
 
 
