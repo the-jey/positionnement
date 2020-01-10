@@ -177,6 +177,46 @@ height: 500px;
   left: 275px;
 }
 
+/*--------------------------------------------------------*/
+/*------------------- EXERCICE 5 (relative)---------------*/
+/*--------------------------------------------------------*/
+
+#exercice5-rel .carreBleu {
+  position: relative;
+  box-sizing: border-box;
+  height: 500px;
+  width: 500px;
+  padding: 25px;
+}
+
+#exercice5-rel .carreVert {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+#exercice5-rel .carreViolet {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  left: 250px;
+  bottom: 200px;
+}
+
+#exercice5-rel .carreOrange {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  bottom: 150px;
+}
+
+#exercice5-rel .carreJaune {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  left: 250px;
+  bottom: 350px;
+}
 
 
 
