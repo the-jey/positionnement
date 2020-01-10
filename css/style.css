@@ -32,6 +32,10 @@ h1, h2 {
   background-color: yellow;
 }
 
+#carreGris {
+  background-color: grey;
+}
+
 
 
 /*--------------------------------------------------------*/
@@ -262,5 +266,33 @@ height: 500px;
   z-index: 1;
   bottom: 25px;
   left: 275px;
+}
+
+/*--------------------------------------------------------*/
+/*------------------- EXERCICE 7 -------------------------*/
+/*--------------------------------------------------------*/
+
+#exercice7 {
+  height: 700px;
+}
+
+
+
+#exercice7 .carreVert, #exercice7 .carreViolet {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+#exercice7 .carreOrange {
+  clear: both;
+  width: 100%;
+  height: 200px;
+}
+
+#exercice7 .carreJaune, #carreGris {
+  float: right;
+  height: 200px;
+  width: 200px;
 }
 
