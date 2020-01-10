@@ -27,6 +27,10 @@ h1, h2 {
   background-color: aqua;
 }
 
+.carreJaune {
+  background-color: yellow;
+}
+
 
 
 /*--------------------------------------------------------*/
@@ -131,6 +135,46 @@ height: 500px;
   width: 130px;
   top: 230px;
   left: 230px;
+}
+
+/*--------------------------------------------------------*/
+/*------------------- EXERCICE 5 (absolute)---------------*/
+/*--------------------------------------------------------*/
+
+#exercice5-abs .carreBleu {
+  position: relative;
+  box-sizing: border-box;
+  height: 500px;
+  width: 500px;
+  padding: 25px;
+}
+
+#exercice5-abs .carreVert {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+
+#exercice5-abs .carreViolet {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 275px;
+}
+
+#exercice5-abs .carreOrange {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 275px;
+}
+
+#exercice5-abs .carreJaune {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 275px;
+  left: 275px;
 }
 
 
